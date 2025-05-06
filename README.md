@@ -70,7 +70,7 @@ This category allows for freely defined tasks that may not fall under standard b
             {
                 "Token": "", // Add your personal token here
                 "IterationPath": "", // Add the iteration path here normally it will be the path for you current created sprint.
-                "AreaPath": "Omnibees\\Products", 
+                "AreaPath": "", 
             }
         ],
 
