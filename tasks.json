@@ -1,53 +1,16 @@
 {
     "Tasks": {
         "AppConfig": [
-            {
-                "Token": "",
-                "IterationPath": "",
-                "AreaPath": "",
-            }
+          {
+            "ProjectName": "", // tfs project Name example: http://tfs.link.com/tfs/DefaultCollection/{ProjectName} you should only set the project name not the url.
+            "TfsUrl": "", // tfs main project Url example: http://tfs.link.com/tfs/DefaultCollection/
+            "Token": "",
+            "IterationPath": "",
+            "AreaPath": "",
+          }
         ],
 
         "bug_tasks": [
-            
-            {
-                "Title": "Análise & BugFix",
-                "Description": "Development Correction",
-                "Activity": "Development",
-                "OriginalEstimate": "4",
-                "RemainingWork": "4",
-                "AssignedTo": ""
-            },
-            {
-                "Title": "QA: Possible FeedBack and Fix",
-                "Description": "Rejected by QA or Product - NEED FIX",
-                "Activity": "Development",
-                "OriginalEstimate": "2",
-                "RemainingWork": "2",
-                "AssignedTo": ""
-            },
-            {
-                "Title": "Merge Angular",
-                "Description": "Complete merge",
-                "Activity": "Deployment",
-                "OriginalEstimate": "1",
-                "RemainingWork": "1",
-                "AssignedTo": ""
-
-            },
-            {
-                "Title": "Doc Release",
-                "Description": "Doc Release",
-                "Activity": "Documentation",
-                "OriginalEstimate": "0,5",
-                "RemainingWork": "0,5",
-                "AssignedTo": ""
-            },
-			
-			
-	
-        ],
-        "us_tasks": [
             {
                 "Title": "Code Review",
                 "Description": "Code Review",
@@ -57,19 +20,19 @@
                 "AssignedTo": ""
             },
             {
-                "Title": "Análise & Desenvolvimento",
-                "Description": "Desenvolvimento",
+                "Title": "Análise & BugFix",
+                "Description": "Development Correction",
                 "Activity": "Development",
-                "OriginalEstimate": "16",
-                "RemainingWork": "16",
+                "OriginalEstimate": "2",
+                "RemainingWork": "2",
                 "AssignedTo": ""
             },
             {
                 "Title": "QA: Possible FeedBack and Fix",
                 "Description": "Rejected by QA or Product - NEED FIX",
                 "Activity": "Development",
-                "OriginalEstimate": "4",
-                "RemainingWork": "4",
+                "OriginalEstimate": "2",
+                "RemainingWork": "2",
                 "AssignedTo": ""
             },
             {
@@ -89,32 +52,65 @@
                 "RemainingWork": "0,5",
                 "AssignedTo": ""
             },
-			{
-                "Title": "Testes Funcionais",
-                "Description": "Testes Funcionais",
+            {
+                "Title": "Testes QA",
+                "Description": "Testes QA",
+                "Activity": "Testing",
+                "OriginalEstimate": "2",
+                "RemainingWork": "2",
+                "AssignedTo": ""
+            }
+        ],
+        "us_tasks": [
+            {
+                "Title": "Code Review",
+                "Description": "Code Review",
+                "Activity": "Requirements",
+                "OriginalEstimate": "1",
+                "RemainingWork": "1",
+                "AssignedTo": ""
+            },
+            {
+                "Title": "Análise & BugFix",
+                "Description": "Development Correction",
                 "Activity": "Development",
                 "OriginalEstimate": "2",
                 "RemainingWork": "2",
                 "AssignedTo": ""
             },
-			{
-                "Title": "Testes Unitários",
-                "Description": "Testes Unitários",
-                "Activity": "Development",
-                "OriginalEstimate": "3",
-                "RemainingWork": "3",
-                "AssignedTo": ""
-            },
-					{
-                "Title": "Produto: Possible FeedBack and Fix",
+            {
+                "Title": "QA: Possible FeedBack and Fix",
                 "Description": "Rejected by QA or Product - NEED FIX",
                 "Activity": "Development",
-                "OriginalEstimate": "4",
-                "RemainingWork": "4",
+                "OriginalEstimate": "2",
+                "RemainingWork": "2",
                 "AssignedTo": ""
             },
-			
-          
+            {
+                "Title": "Merge",
+                "Description": "Complete merge",
+                "Activity": "Deployment",
+                "OriginalEstimate": "1",
+                "RemainingWork": "1",
+                "AssignedTo": ""
+
+            },
+            {
+                "Title": "Doc Release",
+                "Description": "Doc Release",
+                "Activity": "Documentation",
+                "OriginalEstimate": "0,5",
+                "RemainingWork": "0,5",
+                "AssignedTo": ""
+            },
+            {
+                "Title": "Testes QA",
+                "Description": "Testes QA",
+                "Activity": "Testing",
+                "OriginalEstimate": "2",
+                "RemainingWork": "2",
+                "AssignedTo": ""
+            }
         ],
         "custom_tasks": [
             {
