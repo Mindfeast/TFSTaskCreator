@@ -31,6 +31,17 @@ This token must be generated from your TFS account with permissions to read, wri
 
 Alternatively, the token can be entered directly into the application's graphical user interface.
 
+#### Tfs Url and Project Name
+
+You must change tfs url for the collection url your using like in the following example, and then set the project name on json file to that is inside your collection.
+
+```json
+ "AppConfig": [
+          {
+            "ProjectName": "", // tfs project Name example: http://tfs.link.com/tfs/DefaultCollection/{ProjectName} you should only set the project name not the url.
+            "TfsUrl": "", // tfs main project Url example: http://tfs.link.com/tfs/DefaultCollection/
+```
+
 ## Task Customization
 The application supports the customization and management of tasks through three categories of work items, each corresponding to a specific radio button selection:
 
